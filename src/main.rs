@@ -60,6 +60,6 @@ mod tests {
         let square = |x: &i32| *x * *x == *expected;
 
         let result = are_both_true(add, square, &2);
-        assert_eq!(result, true);
+        assert!(result);
     }
 }
