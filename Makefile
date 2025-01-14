@@ -5,7 +5,7 @@ CARGO := cargo
 PROJECT_NAME := lib-test-ci
 
 # Default target
-all: build
+all: build-dev
 
 # Build the project in development mode
 build-dev:
