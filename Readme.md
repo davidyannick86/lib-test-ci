@@ -1,0 +1,1 @@
+[![Rust CI](https://github.com/davidyannick86/lib-test-ci/actions/workflows/rust.yml/badge.svg)](https://github.com/davidyannick86/lib-test-ci/actions/workflows/rust.yml)
