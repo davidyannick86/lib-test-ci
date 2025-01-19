@@ -1,17 +1,16 @@
-name: Rust
+name: Rust CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request:
-    branches: [ "master" ]
+    branches: ["master"]
 
 env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  build_and_test:
-
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
