@@ -35,6 +35,4 @@ fmt:
 check:
 	$(CARGO) check
 
-
-
 .PHONY: build-dev build-release
